@@ -1,0 +1,61 @@
+.mainBackground {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.logoutBtn {
+  background: white;
+  color: #182848;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logoutBtn:hover {
+  background: #f0f0f0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 18px;
+  max-width: 600px;
+}
